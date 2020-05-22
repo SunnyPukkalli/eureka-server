@@ -1,2 +1,2 @@
-# eureka-server
-Spring Cloud Eureka Server with 8761 port exposed
+# Eureka-Server
+Spring Cloud Eureka Server with 8761 port exposed 
