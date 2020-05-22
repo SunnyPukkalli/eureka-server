@@ -2,4 +2,4 @@ Command to build and push images to Google Container repository
 mvn com.google.cloud.tools:jib-maven-plugin:build -Dimage=gcr.io/$GOOGLE_CLOUD_PROJECT/eureka-server:v1
 
 Run docker images locally from GCR
-docker run -ti -p 8761:8761 gcr.io/favorable-iris-266409/eureka-server:v1 
+docker run -ti -p 8761:8761 gcr.io/$GOOGLE_CLOUD_PROJECT/eureka-server:v1 
