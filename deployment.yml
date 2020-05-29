@@ -17,5 +17,8 @@ spec:
       containers:
       - name: eureka-server
         image: 'gcr.io/favorable-iris-266409/eureka-server:v1'
+        env:
+        - name: PROFILE
+          value: cloud
         ports:
         - containerPort: 8761
